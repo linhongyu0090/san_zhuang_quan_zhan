@@ -7,13 +7,13 @@
 
 import Foundation
 
-class Product: Codable {
+class Product:Codable{
 
     var id :Int
     var name:String
+    var tradeName:String
     var cover:String
     var images:[String]
     var rating:Int
     var price:Double
-
 }
