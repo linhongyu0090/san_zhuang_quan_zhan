@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitee.com/mail2chensh/Alamofire",
+      "state" : {
+        "branch" : "master",
+        "revision" : "f82c23a8a7ef8dc1a49a8bfc6a96883e79121864"
+      }
+    },
+    {
+      "identity" : "mjrefresh?_from=gitee_search",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitee.com/dingjiarui/MJRefresh?_from=gitee_search",
+      "state" : {
+        "revision" : "f9db27ea41c7e3f5002be57bbf8fd5bf30f7346e",
+        "version" : "3.7.5"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://gitee.com/ubuntu84/SnapKit",
+      "state" : {
+        "branch" : "develop",
+        "revision" : "466db39ee4ef32b0f7c8cd9f009aaf42f80beace"
+      }
+    }
+  ],
+  "version" : 2
+}
