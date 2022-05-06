@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.9.1)
+  - MJRefresh (3.7.5)
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - MJRefresh
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MJRefresh
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 424eb998e627e955aff7c7d3171202dea030e928
+
+COCOAPODS: 1.11.2
