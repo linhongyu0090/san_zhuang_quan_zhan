@@ -44,37 +44,37 @@ class MemorandumVC: UIViewController{
 //        let addItemVC = AddItemVC()
 //        self.navigationController?.pushViewController(addItemVC, animated: true)
 //        print(#function)
-        let alertController = UIAlertController(title: "Add New Todo Item", message: "", preferredStyle: .alert)
-        let confirmAction = UIAlertAction(title: "Confirm", style: .default) { (_) in
-            if let field = alertController.textFields![0] as? UITextField{
+//        let alertController = UIAlertController(title: "Add New Todo Item", message: "", preferredStyle: .alert)
+//        let confirmAction = UIAlertAction(title: "Confirm", style: .default) { (_) in
+//            if let field = alertController.textFields![0] as? UITextField{
                 
-            }
-        }
-        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
-        alertController.addTextField { (textField) in
-            textField.placeholder = "Please input the todo Item"
-        }
-        
-        alertController.addAction(confirmAction)
-        alertController.addAction(cancelAction)
-        self.present(alertController, animated: true, completion: nil)
-        
+//            }
+//        }
+//        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+//        alertController.addTextField { (textField) in
+//            textField.placeholder = "Please input the todo Item"
+//        }
+//
+//        alertController.addAction(confirmAction)
+//        alertController.addAction(cancelAction)
+//        self.present(alertController, animated: true, completion: nil)
+//
     }
+//
     
     
     
     
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//
+//        tableView.frame = self.view.frame
+//        self.view.addSubview(tableView)
+//        tableView.delegate = self
+//        tableView.dataSource = self
         
-        tableView.frame = self.view.frame
-        self.view.addSubview(tableView)
-        tableView.delegate = self
-        tableView.dataSource = self
         
-        
-    }
+//    }
 
 
 }
