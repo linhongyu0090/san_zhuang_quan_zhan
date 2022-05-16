@@ -10,30 +10,12 @@
       }
     },
     {
-      "identity" : "mjrefresh?_from=gitee_search",
-      "kind" : "remoteSourceControl",
-      "location" : "https://gitee.com/dingjiarui/MJRefresh?_from=gitee_search",
-      "state" : {
-        "branch" : "master",
-        "revision" : "f9db27ea41c7e3f5002be57bbf8fd5bf30f7346e"
-      }
-    },
-    {
       "identity" : "snapkit",
       "kind" : "remoteSourceControl",
       "location" : "https://gitee.com/ubuntu84/SnapKit",
       "state" : {
         "branch" : "develop",
         "revision" : "466db39ee4ef32b0f7c8cd9f009aaf42f80beace"
-      }
-    },
-    {
-      "identity" : "swiftyjson",
-      "kind" : "remoteSourceControl",
-      "location" : "https://gitee.com/lzgtee/SwiftyJSON",
-      "state" : {
-        "branch" : "master",
-        "revision" : "b3dcd7dbd0d488e1a7077cb33b00f2083e382f07"
       }
     }
   ],

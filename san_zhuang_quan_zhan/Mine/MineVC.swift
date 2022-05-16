@@ -133,7 +133,7 @@ class MineVC: UIViewController {
         memoVC.modalPresentationStyle = .fullScreen
         memoVC.modalTransitionStyle = .coverVertical
 //        self.present(memoVC, animated: true, completion: nil)
-        self.navigationController?.pushViewController(ViewController(), animated: true)
+        self.navigationController?.pushViewController(memoVC, animated: true)
     }
     @objc func clickSetting(){
         

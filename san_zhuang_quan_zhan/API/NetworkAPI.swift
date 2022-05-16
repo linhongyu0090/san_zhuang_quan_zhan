@@ -4,13 +4,13 @@
 //
 //  Created by 林宏宇 on 2022/4/11.
 //
-
+//
 import Foundation
 import Alamofire
 
 private let BaseUrl = "https://raw.githubusercontent.com/linhongyu0090/san_zhuang_quan_zhan_API/master/"
 //class NetworkAPI{
-//    static func homeProductList(completion:@escaping(Result<[Product],Error>)->Void){
+//    static func homeProductList(completion:@escaping(Swift.Result<[Product],Error>)->Void){
 //        AF.request(BaseUrl + "products.json").responseData { response in
 //            switch response.result{
 //            case let .success(data):
@@ -26,4 +26,3 @@ private let BaseUrl = "https://raw.githubusercontent.com/linhongyu0090/san_zhuan
 //        }
 //    }
 //}
-

@@ -93,15 +93,15 @@ class ProductListVC: UIViewController,BannerViewDatasourse,BannerViewDelegate{
         
     }
     func refreshData(){
-//        NetworkAPI.homeProductList { result in
-//            self.tableView.mj_header?.endRefreshing()
-//            switch result{
-//            case let .success(list):
-//                self.list = list
-//                self.tableView.reloadData()
-//            case let .failure(error):print("Failure:\(error)")
-//            }
-//        }
+        NetworkAPI.homeProductList { result in
+            self.tableView.mj_header?.endRefreshing()
+            switch result{
+            case let .success(list):
+                self.list = list
+                self.tableView.reloadData()
+            case let .failure(error):print("Failure:\(error)")
+            }
+        }
     }
     
     func setupSearchController(){

@@ -69,6 +69,9 @@ class ConductCell: UITableViewCell {
         vStack.addArrangedSubview(countLabel)
         
         hStack.addArrangedSubview(vStack)
+        NSLayoutConstraint.activate([
+        
+        ])
         
         
     }

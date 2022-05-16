@@ -68,7 +68,7 @@ class ExamineListCell: UITableViewCell {
         vStack.translatesAutoresizingMaskIntoConstraints = false
         vStack.alignment = .center
         vStack.layer.cornerRadius = 15
-        vStack.spacing = 8
+        vStack.spacing = 10
         vStack.layer.masksToBounds = false
         vStack.layer.borderColor = UIColor.systemGray6.cgColor
         vStack.layer.borderWidth = 1
